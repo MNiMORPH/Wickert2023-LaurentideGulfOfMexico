@@ -13,6 +13,8 @@ Laurentide Ice Sheet advance and retreat: ~2000-year cycles paced by meltwaterâ€
 feedback,
 *Geophysical Research Letters*.
 
+As applicable, please also cite the original sources of the data sets that we have integrated.
+
 ## Contents
 
 ### MD02-2550-marine
