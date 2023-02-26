@@ -1,6 +1,8 @@
 # Wickert2023-LaurentideGulfOfMexico
 Supplementary data for 2023 article on Laurentide ice sheet advance and retreat, tracked via oxygen isotopes from G. ruber in Gulf of Mexico core MD02-2550, and relationship to AMOC strength.
 
+Although the study incorporates data from 20.5&ndash;9.5 ka, these data sets go beyond this range and extend throughout the referenced data from the core.
+
 ## Associated scientific paper
 
 When using these data, please cite (alongside this data repository, as applicable):
@@ -30,3 +32,14 @@ Data sources:
 * Brown, E. A. (2011). Initial Ablation of the Laurentide Ice Sheet Based on Gulf of Mexico Sediments (M.S. Thesis). University of South Florida, St. Petersburg, FL, USA.
 * Williams, C. (2014). A Multi-Proxy Approach to Understanding Abrupt Climate Change and Laurentide Ice Sheet Melting History Based on Gulf of Mexico Sediments (Ph.D. Dissertation). University of South Florida.
 * Williams, C., Flower, B. P., Hastings, D. W., Guilderson, T. P., Quinn, K. A., & Goddard, E. A. (2010). Deglacial abrupt climate change in the Atlantic Warm Pool: A Gulf of Mexico perspective. Paleoceanography, 115(4), PA4221. https://doi.org/10.1029/2010PA001928
+
+### MD02-2550_d18O_MgCa
+
+$\delta^{18}\mathrm{O}$ (VPDB) and Mg/Ca ratio data from *G. ruber*.
+
+Data sources:
+* LoDico, J. M., Flower, B. P., & Quinn, T. M. (2006). Subcentennial‐scale climatic and hydrologic variability in the Gulf of Mexico during the early Holocene. Paleoceanography, 21(3).
+* Williams, C., Flower, B. P., & Hastings, D. W. (2012). Seasonal Laurentide ice sheet melting during the “Mystery Interval”(17.5–14.5 ka). Geology, 40(10), 955-958.
+* Williams, C. (2014). A Multi-Proxy Approach to Understanding Abrupt Climate Change and Laurentide Ice Sheet Melting History Based on Gulf of Mexico Sediments (Ph.D. Dissertation). University of South Florida.
+
+
