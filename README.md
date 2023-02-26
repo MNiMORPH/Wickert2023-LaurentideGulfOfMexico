@@ -48,4 +48,24 @@ Data sources:
 * Williams, C., Flower, B. P., & Hastings, D. W. (2012). Seasonal Laurentide ice sheet melting during the “Mystery Interval”(17.5–14.5 ka). Geology, 40(10), 955-958.
 * Williams, C. (2014). A Multi-Proxy Approach to Understanding Abrupt Climate Change and Laurentide Ice Sheet Melting History Based on Gulf of Mexico Sediments (Ph.D. Dissertation). University of South Florida.
 
+### SyntheticTest
+
+Mississippi drainage-basin area, ice-covered area, precipitation (including that over ice-covered area only), and meltwater discharge. Column headers:
+* Age [ka]
+* Mississippi drainage-basin Area [km2]
+* Ice-covered drainage-basin area [km2]
+* Qprecip [m3/s]
+* Qice [m3/s]
+* Qprecip over ice sheet [m3/s]
+
+Basins were hand-digitized based on work by Wickert (2014, Ph.D. dissertation) and Wickert (2016). Precipitation is from HadCM3 outputs (Ivanović et al., 2017, 2018a, 2018b; Valdes et al., 2017). Meltwater is from differencing ice volumes from ICE-6G (Peltier et al., 2015) within the Mississippi basin.
+
+Sources:
+* Peltier, W. R., Argus, D. F., & Drummond, R. (2015). Space geodesy constrains ice age terminal deglaciation: The global ICE‐6G_C (VM5a) model. Journal of Geophysical Research: Solid Earth, 120(1), 450-487.
+* Ivanovic, R. F., Gregoire, L. J., Wickert, A. D., Valdes, P. J., & Burke, A. (2017). Collapse of the North American ice saddle 14,500 years ago caused widespread cooling and reduced ocean overturning circulation. Geophysical Research Letters, 44(1), 383-392.
+* Ivanovic, R.F., Gregoire, L.J., Burke, A., Wickert, A.D., Valdes, P.J., Ng, H.C., Robinson, L.F., McManus, J.F., Mitrovica, J.X., Lee, L., & Dentith, J. E. (2018). Acceleration of northern ice sheet melt induces AMOC slowdown and northern cooling in simulations of the early last deglaciation. Paleoceanography and Paleoclimatology, 33(7), 807-824.
+* Ivanovic, R. F., Gregoire, L. J., Wickert, A. D., & Burke, A. (2018). Climatic effect of Antarctic meltwater overwhelmed by concurrent Northern hemispheric melt. Geophysical Research Letters, 45(11), 5681-5689.
+* Valdes, P. J., Armstrong, E., Badger, M. P., Bradshaw, C. D., Bragg, F., Crucifix, M., ... & Williams, J. H. (2017). The BRIDGE HadCM3 family of climate models: HadCM3@ Bristol v1. 0. Geoscientific Model Development, 10(10), 3715-3743.
+* Wickert, A. D. (2014). Impacts of Pleistocene glaciation and its geophysical effects on North American river systems (Doctoral dissertation, University of Colorado at Boulder).
+* Wickert, A. D. (2016). Reconstruction of North American drainage basins and river discharge since the Last Glacial Maximum. Earth Surface Dynamics, 4(4), 831-869.
 
