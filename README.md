@@ -19,14 +19,19 @@ As applicable, please also cite the original sources of the data sets that we ha
 
 ## Contents
 
-### MD02-2550-marine
+### MD02-2550-marine-2023-Wagner
 
 * This folder, minus the Excel files, is the full input and output from running Bacon on core MD02-2550.
 * Excel files for easier viewing of inputs and outputs:
   * `MD02-2550-marine.xlsx`: **Input.** Uncalibrated radiocarbon ages and sample depths; file contents are the same as `MD02-2550-marine.csv`.
   * `MD02-2550-marine_ageModel_Bacon.xlsx`: **Output.**  Calibrated age and depth information for core MD02-2550; file contents are nearly the same as `MD02-2550-marine_178_ages.txt`, but contain a second row with units.
+* The age model is constructed using Marine20 (Heaton et al., 2020) with a local reservoir correction of -164 years based on data from the nearby Flower Garden Banks (Wagner et al., 2009).
 
 The age model extends from ~0.5 to ~23.5 cal ka.
+
+Radiocarbon calibration sources:
+* Heaton, T. J., Köhler, P., Butzin, M., Bard, E., Reimer, R. W., Austin, W. E., ... & Skinner, L. C. (2020). Marine20—the marine radiocarbon age calibration curve (0–55,000 cal BP). Radiocarbon, 62(4), 779-820.
+* Wagner, A. J., Guilderson, T. P., Slowey, N. C., & Cole, J. E. (2009). Pre-bomb surface water radiocarbon of the Gulf of Mexico and Caribbean as recorded in hermatypic corals. Radiocarbon, 51(3), 947-954.
 
 Data sources:
 * Brown, E. A. (2011). Initial Ablation of the Laurentide Ice Sheet Based on Gulf of Mexico Sediments (M.S. Thesis). University of South Florida, St. Petersburg, FL, USA.
