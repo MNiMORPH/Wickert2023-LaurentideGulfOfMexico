@@ -37,6 +37,12 @@ Data sources:
 
 $\delta^{18}\mathrm{O}$ (VPDB) and Mg/Ca ratio data from *G. ruber*.
 
+The `xlsx` and `csv` files contain identical data, comprising:
+* Sample depth
+* Mg/Ca concentration ratio
+* d18O (VPDB)
+* Sources to cite
+
 Data sources:
 * LoDico, J. M., Flower, B. P., & Quinn, T. M. (2006). Subcentennial‐scale climatic and hydrologic variability in the Gulf of Mexico during the early Holocene. Paleoceanography, 21(3).
 * Williams, C., Flower, B. P., & Hastings, D. W. (2012). Seasonal Laurentide ice sheet melting during the “Mystery Interval”(17.5–14.5 ka). Geology, 40(10), 955-958.
