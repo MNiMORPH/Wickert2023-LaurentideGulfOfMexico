@@ -69,3 +69,43 @@ Sources:
 * Wickert, A. D. (2014). Impacts of Pleistocene glaciation and its geophysical effects on North American river systems (Doctoral dissertation, University of Colorado at Boulder).
 * Wickert, A. D. (2016). Reconstruction of North American drainage basins and river discharge since the Last Glacial Maximum. Earth Surface Dynamics, 4(4), 831-869.
 
+### MovingAveragesAndCorrelations
+
+* Moving averages of data, comprising $\delta^{18}\mathrm{O}_\mathrm{ivc-sw}$ (ice-volume corrected reconstructed oxygen-isotope ratio of seawater), the Pa/Th ratio record of ocean circulation (McManus, 2004, updated via Ng et al., 2018, to the Marine20 calibration curve), and GRIP isotope ratios and paleotemperatures (not used in the Wickert et al., 2023, study). File names follow the pattern `Moving_average_<AVERAGING_WINDOW>yr_<TIME_STEP>yr_d18O_T_PaTh__2023.csv`. Columns:
+  * Age [ka]
+  * d18O GRIP (not used; given in permil, VSMOW)
+  * T GRIP (Temperature in degrees Celsius: not used)
+  * d18O GoM (ice-volume-corrected seawater, VSMOW)
+  * Pa/Th (ratio)
+* Temperature anomalies every 50 years by Badgeley et al. (2020)
+* Correlation statistics. Note: GRIP is not used in the Wickert et al. (2023) study.
+  * Files:
+    * `Direct_GRIP_PaTh_Badgeley_GoM_correlation_50yr_movingAverage_1000yr_bins_50yr_time_step_100yr_correlation_interval__0_to_30000_yrBP__2023.csv`
+    * `Direct_GRIP_PaTh_Badgeley_GoM_correlation_100yr_movingAverage_1000yr_bins_50yr_time_step_100yr_correlation_interval__0_to_30000_yrBP__2023.csv`
+  * Column key:
+    * r: Correlation coefficient
+    * p: Pearson's p
+    * npoints: The number of data pairs incorporated into the calculated correlation
+
+Sources:
+* Greenland Temperature:
+  * Badgeley, J. A., Steig, E. J., Hakim, G. J., & Fudge, T. J. (2020). Greenland temperature and precipitation over the last 20 000 years using data assimilation. Climate of the Past, 16(4), 1325-1346.
+* Pa/Th
+  * McManus, J. F., Francois, R., Gherardi, J. M., Keigwin, L. D., & Brown-Leger, S. (2004). Collapse and rapid resumption of Atlantic meridional circulation linked to deglacial climate changes. nature, 428(6985), 834-837.
+  * Ng, H. C., Robinson, L. F., McManus, J. F., Mohamed, K. J., Jacobel, A. W., Ivanovic, R. F., ... & Chen, T. (2018). Coherent deglacial changes in western Atlantic Ocean circulation. Nature communications, 9(1), 2947.
+  * *Modifications made in this study to update these data to use the Marine20 calibration curve*
+* Gulf of Mexico core chronology
+  * Brown, E. A. (2011). Initial Ablation of the Laurentide Ice Sheet Based on Gulf of Mexico Sediments (M.S. Thesis). University of South Florida, St. Petersburg, FL, USA.
+  * Williams, C. (2014). A Multi-Proxy Approach to Understanding Abrupt Climate Change and Laurentide Ice Sheet Melting History Based on Gulf of Mexico Sediments (Ph.D. Dissertation). University of South Florida.
+  * Williams, C., Flower, B. P., Hastings, D. W., Guilderson, T. P., Quinn, K. A., & Goddard, E. A. (2010). Deglacial abrupt climate change in the Atlantic Warm Pool: A Gulf of Mexico perspective. Paleoceanography, 115(4), PA4221. https://doi.org/10.1029/2010PA001928
+* Gulf of Mexico $\delta^{18}\mathrm{O}$
+  * LoDico, J. M., Flower, B. P., & Quinn, T. M. (2006). Subcentennial‐scale climatic and hydrologic variability in the Gulf of Mexico during the early Holocene. Paleoceanography, 21(3).
+  * Williams, C., Flower, B. P., & Hastings, D. W. (2012). Seasonal Laurentide ice sheet melting during the “Mystery Interval”(17.5–14.5 ka). Geology, 40(10), 955-958.
+  * Williams, C. (2014). A Multi-Proxy Approach to Understanding Abrupt Climate Change and Laurentide Ice Sheet Melting History Based on Gulf of Mexico Sediments (Ph.D. Dissertation). University of South Florida.
+* Conversion to a uniform ice-volume-corrected $\delta^{18}\mathrm{O}$ of seawater
+  * Dekens, P. S., Lea, D. W., Pak, D. K., & Spero, H. J. (2002). Core top calibration of Mg/Ca in tropical foraminifera: Refining paleotemperature estimation. Geochemistry, Geophysics, Geosystems, 3(4), 1-29.
+  * Spratt, R. M., & Lisiecki, L. E. (2016). A Late Pleistocene sea level stack. Climate of the Past, 12(4), 1079-1092.
+  * Wickert, A. D. (2019). d18O-ivc-sw: Computing ice-volume-corrected seawater d18O values from sediment-core data (Version v1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.5704598
+* GRIP [not used]
+  * Seierstad, I. K., Abbott, P. M., Bigler, M., Blunier, T., Bourne, A. J., Brook, E., ... & Vinther, B. M. (2014). Consistently dated records from the Greenland GRIP, GISP2 and NGRIP ice cores for the past 104 ka reveal regional millennial-scale δ18O gradients with possible Heinrich event imprint. Quaternary Science Reviews, 106, 29-46.
+
