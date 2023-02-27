@@ -95,8 +95,11 @@ Sources:
 Sources:
 * Greenland Temperature:
   * Badgeley, J. A., Steig, E. J., Hakim, G. J., & Fudge, T. J. (2020). Greenland temperature and precipitation over the last 20 000 years using data assimilation. Climate of the Past, 16(4), 1325-1346.
-* Pa/Th
+* Pa/Th data
   * McManus, J. F., Francois, R., Gherardi, J. M., Keigwin, L. D., & Brown-Leger, S. (2004). Collapse and rapid resumption of Atlantic meridional circulation linked to deglacial climate changes. nature, 428(6985), 834-837.
+* Pa/Th chronological update (Marine20)
+  * Druffel, E. R. (1997). Pulses of rapid ventilation in the North Atlantic surface ocean during the past century. Science, 275(5305), 1454-1457.
+  * McNeely, R., Dyke, A. S., & Southon, J. R. (2006). Canadian marine reservoir ages preliminary data assessment. Geological Survey of Canada.
   * Ng, H. C., Robinson, L. F., McManus, J. F., Mohamed, K. J., Jacobel, A. W., Ivanovic, R. F., ... & Chen, T. (2018). Coherent deglacial changes in western Atlantic Ocean circulation. Nature communications, 9(1), 2947.
   * *Modifications made in this study to update these data to use the Marine20 calibration curve*
 * Gulf of Mexico core chronology
