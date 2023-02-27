@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this data set as follows."
+authors:
+- family-names: "Wickert"
+  given-names: "Andrew D."
+  orcid: "https://orcid.org/0000-0002-9545-3365"
+title: "Wickert2023-LaurentideGulfOfMexico: Isotopic evidence for Laurentide Ice Sheet advance and retreat since the Last Glacial Maximum and Synthetic Paleodrainage History"
+version: 1.0.0
+doi: 
+date-released: 2023-02-27
+url: "https://github.com/MNiMORPH/Wickert2023-LaurentideGulfOfMexico"
